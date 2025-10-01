@@ -35,6 +35,17 @@
     .main {
       display: flex;
       flex-direction: column;
+      .img-main {
+        position: relative;
+        .main-3 {
+          position: absolute;
+          left: 10px;
+        }
+        .main-4 {
+          position: absolute;
+          right: 10px;
+        }
+      }
     }
     .cards {
       display: flex;

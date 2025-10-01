@@ -5,6 +5,7 @@
   font-family: sans-serif;
   text-decoration: none;
   border: none;
+  outline: 1px solid red;
 }
 
 ion-icon {
@@ -129,62 +130,61 @@ button:hover {
       rotate: -45deg;
     }
     .img-main {
-      .img-g {
-      }
-      .img-g img:first-child {
-        max-width: 800px;
-        width: 100%;
-      }
       position: relative;
-      .main-1,
-      .main-2,
-      .main-3,
-      .main-4 {
-        position: absolute;
-      }
-      .main-1 {
-        top: 0;
-        left: -30px;
-      }
-      .main-2 {
-        right: 0;
-        top: 0;
-      }
-      .main-3 {
-        left: -200px;
-        bottom: 0;
-      }
-      .main-4 {
-        right: -70px;
-        bottom: 0;
-      }
+    }
+    .img-g img:first-child {
+      max-width: 800px;
+      width: 100%;
+    }
+    position: relative;
+    .main-1,
+    .main-2,
+    .main-3,
+    .main-4 {
+      position: absolute;
+    }
+    .main-1 {
+      top: 0;
+      left: -30px;
+    }
+    .main-2 {
+      right: 0;
+      top: 0;
+    }
+    .main-3 {
+      left: -200px;
+      bottom: 0;
+    }
+    .main-4 {
+      right: -70px;
+      bottom: 0;
     }
   }
-  .blocks {
-    h2 {
-      display: flex;
-      font-size: clamp(1.438rem, 1rem + 2vw, 2.5rem);
-      justify-content: center;
-      text-align: center;
-      gap: 30px;
-      margin-top: clamp(2.375rem, 1.551rem + 3.76vw, 4.375rem);
-      color: #ffffff;
-    }
-    .cards {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: wrap;
+}
+.blocks {
+  h2 {
+    display: flex;
+    font-size: clamp(1.438rem, 1rem + 2vw, 2.5rem);
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+    margin-top: clamp(2.375rem, 1.551rem + 3.76vw, 4.375rem);
+    color: #ffffff;
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
-      .card-1 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-        margin-top: clamp(1.438rem, 1rem + 2vw, 2.5rem);
-        max-width: 300px;
-        width: 100%;
-      }
+    .card-1 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 20px;
+      margin-top: clamp(1.438rem, 1rem + 2vw, 2.5rem);
+      max-width: 300px;
+      width: 100%;
     }
   }
 }
