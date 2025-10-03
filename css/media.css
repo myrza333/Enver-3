@@ -13,6 +13,74 @@
 }
 
 @media (max-width: 768px) {
+  #header {
+    .header {
+      display: flex;
+      align-items: center;
+      nav {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+      }
+      input {
+        max-width: 100px;
+        width: 100%;
+      }
+    }
+  }
+  #main {
+    .main {
+      display: flex;
+      align-items: center;
+      .main-text {
+        max-width: 300px;
+        width: 100%;
+      }
+      .img-main {
+        position: relative;
+        .main-3 {
+          position: absolute;
+          left: 5px;
+          bottom: -100px;
+        }
+        .main-4 {
+          position: absolute;
+          right: 5px;
+          bottom: -20px;
+        }
+      }
+    }
+    .cards {
+      display: flex;
+      /* align-items: end; */
+      justify-content: center;
+    }
+    .only-img {
+      .img-3 {
+        display: flex;
+        align-items: center;
+        .img-3-3 {
+          display: none;
+        }
+        .img-1-1 {
+          max-width: 300px;
+          width: 100%;
+        }
+        .img-2-2 {
+          max-width: 250px;
+          width: 100%;
+        }
+      }
+    }
+  }
+  #footer {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+  }
 }
 
 @media (max-width: 640px) {
